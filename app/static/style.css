@@ -1,3 +1,7 @@
+* {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
 body {
     background-color: #fff;
 }
@@ -14,14 +18,14 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 36px;
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 .analyze {
@@ -30,35 +34,54 @@ body {
 
 .upload-label {
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
     background-color: #ffffff;
     border: solid 1px #7052CB;
-    font-size: 13px;
+    font-size: 20px;
     color: #7052CB;
 }
 
 button.analyze-button {
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     border: solid 1px #7052CB;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: #7052CB;
-    font-size: 13px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 button:focus {
     outline: 0;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+#list {
+    font-size: 20px;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+}
+

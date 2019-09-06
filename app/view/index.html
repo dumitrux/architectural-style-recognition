@@ -1,41 +1,70 @@
 <html lang='en'>
-<head>
-  <meta charset='utf-8'>
-  <link rel='stylesheet' href='../static/style.css'>
-  <script src='../static/client.js'></script>
-</head>
-<body>
-<div>
-  <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
-    <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
-    </p>
-    <div class='content'>
-      <div class='no-display'>
-        <input id='file-input'
-               class='no-display'
-               type='file'
-               name='file'
-               accept='image/*'
-               onchange='showPicked(this)'>
-      </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
-      <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
-      </div>
-      <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
-      </div>
-      <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
-      </div>
-      <div class='result-label'>
-        <label id='result-label'></label>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='../static/style.css'>
+        <script src='../static/client.js'></script>
+    </head>
+    <body>
+        <div>
+            <div class='center'>
+                <div class='title'>Classify Architecture Images &#127970;</div>
+                <div id='list'>
+                    <p>Use images of the following list:</p>
+                    <details>
+                        <summary>Architecture styles</summary>
+                        <ul>
+                            <li>American craftsman</li>
+                            <li>Bauhaus</li>
+                            <li>Palladian</li>
+                            <li>Deconstructivism</li>
+                            <li>Georgian</li>
+                            <li>Romanesque</li>
+                            <li>Greek Revival</li>
+                            <li>American Foursquare</li>
+                            <li>Byzantine</li>
+                            <li>Postmodern</li>
+                            <li>Art Nouveau</li>
+                            <li>Art Deco</li>
+                            <li>Russian Revival</li>
+                            <li>Edwardian</li>
+                            <li>Achaemenid</li>
+                            <li>Novelty</li>
+                            <li>Baroque</li>
+                            <li>Colonial</li>
+                            <li>Ancient Egyptian</li>
+                            <li>Tudor Revival</li>
+                            <li>Queen Anne</li>
+                            <li>Chicago school</li>
+                            <li>Gothic</li>
+                            <li>International</li>
+                            <li>Beaux-Arts</li>
+                        </ul>
+                    </details>
+                </div>
+                <div class='content'>
+                    <div class='no-display'>
+                        <input id='file-input'
+                               class='no-display'
+                               type='file'
+                               name='file'
+                               accept='image/*'
+                               onchange='showPicked(this)'>
+                    </div>
+                    <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+                    <div class='upload-label'>
+                        <label id='upload-label'>No file chosen</label>
+                    </div>
+                    <div>
+                        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+                    </div>
+                    <div class='result-label'>
+                        <label id='result-label'></label>
+                    </div>
+                    <div class='analyze'>
+                        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
