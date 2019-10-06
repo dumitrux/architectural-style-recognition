@@ -4,6 +4,7 @@ With [fastai](https://www.fast.ai) library.
 
 Prepared to run on [Render](https://render.com).
 
+Source code in 'src/cnn_architecture.ipynb'. Working in Google Colab.
 
 ## Demostration
 
