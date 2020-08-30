@@ -5,17 +5,12 @@
 Made with [fastai](https://www.fast.ai) library.
 Source code on [src](./src/architectural-style-recognition.ipynb). It can be runned in [Google Colab](colab.research.google.com)
 
-
-<p align="center">
-<img src="./images/test1.gif"
-  alt="Demostration bauhaus"
-  width="686" height="289">
-</p>
+![Deconstructivism](./images/test1.gif)
 
 
 
 ## Table of content
-* [Dataset](#looking-at-the-data)
+* [Dataset](#dataset)
 * [Training](#training)
 * [Results](#results)
 * [Demonstration](#demonstration)
@@ -89,8 +84,8 @@ In this case we go from 4979 to 9588 images.
 #### Training vs Test sets
 
 The dataset is splitted in two:
-  * training set (80%), to train the model
-  * test set (20%), to test the model
+  * training set (80%)
+  * test set (20%)
 
 
 
@@ -103,34 +98,26 @@ We got a **95%** of accuracy on this dataset
 
 ## Demonstration
 
-**Deconstructivism**
-<p align="center">
-<img src="./images/test1.gif"
-  alt="Demostration bauhaus"
-  width="686" height="289">
-</p>
-
-
 <details><summary><b>More examples</b></summary>
 
-**Greek Revival**
+**Greek Revival:**
 
-![Screenshot](./images/test2.gif)
-
-
-**Byzantine**
-
-![Screenshot](./images/test3.gif)
+![Greek Revival](./images/test2.gif)
 
 
-**Gothic**
+**Byzantine:**
 
-![Screenshot](./images/test4.gif)
+![Byzantine](./images/test3.gif)
 
 
-**Bauhaus**
+**Gothic:**
 
-![Screenshot](./images/test5.gif)
+![Gothic](./images/test4.gif)
+
+
+**Bauhaus:**
+
+![Bauhaus](./images/test5.gif)
 
 </details>
 
@@ -155,7 +142,7 @@ Or in python3:
     python3 app/server.py serve
 
 
-*Only tested in Linux
+*Note: it has been only tested in Linux.*
 
 
 
@@ -174,4 +161,4 @@ MIT License
 
 
 ## Author
-Marian Dumitru Danci ([@dumitrux](https://github.com/dumitrux))
+Danci, Marian Dumitru ([@dumitrux](https://github.com/dumitrux))
