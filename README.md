@@ -15,9 +15,7 @@ Source code on [src](./src/architectural-style-recognition.ipynb). It can be run
 
 
 ## Table of content
-* [Looking at the data](#looking-at-the-data)
-    * [Dataset](#dataset)
-    * [Data augmentation](#data-augmentation)
+* [Dataset](#looking-at-the-data)
 * [Training](#training)
 * [Results](#results)
 * [Demonstration](#demonstration)
@@ -82,7 +80,6 @@ Which is achived creating new images, by transforming (horizontal flip, zoom, li
 
 In this case we go from 4979 to 9588 images.
 
-Exemple:
 ![Data augmentation](./images/data-augmentation.jpg)
 
 
