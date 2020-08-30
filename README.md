@@ -33,6 +33,7 @@ The dataset contains 10113 images from 25 architectural styles.
 It is a mixed between images scraped from Google Images and the dataset from the paper "Architectural Style Classification using Multinomial Latent Logistic Regression" (ECCV2014), made by Zhe Xu.
 
 <details><summary><b>Number of images for each style</b></summary>
+
 - Achaemenid architecture: 392
 - American craftsman style: 364
 - American Foursquare architecture: 362
@@ -82,7 +83,7 @@ Which is achived creating new images, by transforming (horizontal flip, zoom, li
 In this case we go from 4979 to 9588 images.
 
 Exemple:
-![Data augmentation](.images/data-augmentation.jpg)
+![Data augmentation](./images/data-augmentation.jpg)
 
 
 
